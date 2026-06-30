@@ -241,7 +241,7 @@ Make sure to add tests for your changes and run the test suite before submitting
 
 ## Contact
 
-- **Author** – Harshwardhan Mali ([Harshwardhanmali](https://github.com/2005harsh))
+- **Author** – Harshwardhan Mali ([Github](https://github.com/2005harsh))
 - **Project Link** – [https://github.com/2005harsh/candidate-transformer](https://github.com/2005harsh/candidate-transformer)
 - **Email** - harshwardhanmali2005@gmail.com
 ---
