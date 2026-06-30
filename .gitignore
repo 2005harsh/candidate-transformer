@@ -1,0 +1,16 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.pytest_cache/
+.DS_Store
+coverage/
+htmlcov/
+
+# Scratch output written to the repo root during ad-hoc local runs.
+# Intentional, committed sample outputs live under sample_data/ instead
+# (see sample_data/output_default.json and sample_data/output_custom.json).
+/output.json
+/output_custom.json

@@ -1,0 +1,13 @@
+click
+pydantic
+pydantic-settings
+pdfplumber
+rapidfuzz
+phonenumbers
+python-dateutil
+structlog
+pytest
+requests
+pyyaml
+python-docx
+typing-extensions

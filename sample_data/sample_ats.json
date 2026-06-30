@@ -1,0 +1,34 @@
+{
+  "candidate": {
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "+1-555-123-4567",
+    "title": "Senior Software Engineer",
+    "company": "TechCorp",
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "linkedin": "https://linkedin.com/in/sarahjohnson",
+    "github": "https://github.com/sarahjohnson",
+    "skills": ["Python", "JavaScript", "React", "Node.js", "AWS", "Docker"],
+    "experience": [
+      {
+        "company": "TechCorp",
+        "title": "Senior Software Engineer",
+        "start": "2020-01",
+        "end": "2024-12",
+        "summary": "Led development of cloud-based applications."
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of California, Berkeley",
+        "degree": "BS",
+        "field": "Computer Science",
+        "end_year": 2016
+      }
+    ]
+  }
+}

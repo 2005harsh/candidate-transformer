@@ -1,0 +1,548 @@
+[
+  {
+    "candidate_id": "CAND-dab1bdac",
+    "full_name": "Sarah Johnson",
+    "emails": [
+      "sarah.johnson@email.com"
+    ],
+    "phones": [
+      "+15551234567"
+    ],
+    "headline": "Senior Software Engineer",
+    "skills": [
+      {
+        "name": "Python",
+        "confidence": 0.5,
+        "sources": [
+          "ats_json_sample_ats.json"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.5,
+        "sources": [
+          "ats_json_sample_ats.json"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 0.5,
+        "sources": [
+          "ats_json_sample_ats.json"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "confidence": 0.5,
+        "sources": [
+          "ats_json_sample_ats.json"
+        ]
+      },
+      {
+        "name": "AWS",
+        "confidence": 0.5,
+        "sources": [
+          "ats_json_sample_ats.json"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.5,
+        "sources": [
+          "ats_json_sample_ats.json"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "TechCorp",
+        "title": "Senior Software Engineer",
+        "start": "2020-01",
+        "end": "2024-12",
+        "summary": "Led development of cloud-based applications.",
+        "sources": [
+          "ats_json_sample_ats.json"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of California, Berkeley",
+        "degree": "BS",
+        "field": "Computer Science",
+        "end_year": 2016,
+        "sources": [
+          "ats_json_sample_ats.json"
+        ]
+      }
+    ],
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": [
+      {
+        "type": "linkedin",
+        "url": "https://linkedin.com/in/sarahjohnson"
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/sarahjohnson"
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234310",
+        "details": null
+      },
+      {
+        "field": "headline",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234338",
+        "details": null
+      },
+      {
+        "field": "emails",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234349",
+        "details": null
+      },
+      {
+        "field": "phones",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234354",
+        "details": null
+      },
+      {
+        "field": "location",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234367",
+        "details": null
+      },
+      {
+        "field": "links",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234401",
+        "details": null
+      },
+      {
+        "field": "links",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234415",
+        "details": null
+      },
+      {
+        "field": "skill.Python",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234434",
+        "details": null
+      },
+      {
+        "field": "skill.JavaScript",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234443",
+        "details": null
+      },
+      {
+        "field": "skill.React",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234516",
+        "details": null
+      },
+      {
+        "field": "skill.Node.js",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234522",
+        "details": null
+      },
+      {
+        "field": "skill.AWS",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234530",
+        "details": null
+      },
+      {
+        "field": "skill.Docker",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234536",
+        "details": null
+      },
+      {
+        "field": "experience",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234721",
+        "details": null
+      },
+      {
+        "field": "education",
+        "source": "ats_json_sample_ats.json",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234746",
+        "details": null
+      }
+    ],
+    "overall_confidence": 0.5
+  },
+  {
+    "candidate_id": "CAND-e7bf2ba8",
+    "full_name": "Alex Johnson",
+    "emails": [
+      "alex.johnson@example.com"
+    ],
+    "phones": [
+      "+15551234567"
+    ],
+    "headline": "Senior Software Engineer",
+    "skills": [
+      {
+        "name": "Python",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234814",
+        "details": null
+      },
+      {
+        "field": "headline",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234819",
+        "details": null
+      },
+      {
+        "field": "emails",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234823",
+        "details": null
+      },
+      {
+        "field": "phones",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234826",
+        "details": null
+      },
+      {
+        "field": "location",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234835",
+        "details": null
+      },
+      {
+        "field": "skill.Python",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234845",
+        "details": null
+      },
+      {
+        "field": "skill.Machine Learning",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234852",
+        "details": null
+      },
+      {
+        "field": "skill.Docker",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234865",
+        "details": null
+      },
+      {
+        "field": "skill.Kubernetes",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234872",
+        "details": null
+      }
+    ],
+    "overall_confidence": 1.0
+  },
+  {
+    "candidate_id": "CAND-e272f921",
+    "full_name": "Maria Lopez",
+    "emails": [
+      "maria.lopez@example.com"
+    ],
+    "phones": [
+      "+14155559876"
+    ],
+    "headline": "Data Engineer",
+    "skills": [
+      {
+        "name": "SQL",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      },
+      {
+        "name": "ETL",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      },
+      {
+        "name": "Airflow",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "location": {
+      "city": "San Jose",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234907",
+        "details": null
+      },
+      {
+        "field": "headline",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234911",
+        "details": null
+      },
+      {
+        "field": "emails",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234917",
+        "details": null
+      },
+      {
+        "field": "phones",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234920",
+        "details": null
+      },
+      {
+        "field": "location",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234927",
+        "details": null
+      },
+      {
+        "field": "skill.SQL",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234933",
+        "details": null
+      },
+      {
+        "field": "skill.Python",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234938",
+        "details": null
+      },
+      {
+        "field": "skill.ETL",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234943",
+        "details": null
+      },
+      {
+        "field": "skill.Airflow",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234950",
+        "details": null
+      }
+    ],
+    "overall_confidence": 1.0
+  },
+  {
+    "candidate_id": "CAND-74d3a88f",
+    "full_name": "James Smith",
+    "emails": [
+      "james.smith@example.com"
+    ],
+    "phones": [
+      "+442079460958"
+    ],
+    "headline": "Frontend Engineer",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      },
+      {
+        "name": "CSS",
+        "confidence": 1.0,
+        "sources": [
+          "sample_data/recruiter_export.csv"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "location": {
+      "city": "London",
+      "region": "UK",
+      "country": null
+    },
+    "links": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234977",
+        "details": null
+      },
+      {
+        "field": "headline",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234981",
+        "details": null
+      },
+      {
+        "field": "emails",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234985",
+        "details": null
+      },
+      {
+        "field": "phones",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234987",
+        "details": null
+      },
+      {
+        "field": "location",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234992",
+        "details": null
+      },
+      {
+        "field": "skill.JavaScript",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.234998",
+        "details": null
+      },
+      {
+        "field": "skill.React",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.235003",
+        "details": null
+      },
+      {
+        "field": "skill.TypeScript",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.235008",
+        "details": null
+      },
+      {
+        "field": "skill.CSS",
+        "source": "sample_data/recruiter_export.csv",
+        "method": "parse",
+        "timestamp": "2026-06-30 08:44:49.235016",
+        "details": null
+      }
+    ],
+    "overall_confidence": 1.0
+  }
+]

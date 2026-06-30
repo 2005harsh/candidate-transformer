@@ -1,0 +1,8 @@
+[
+  {
+    "id": "c1",
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "skills": ["Python", "Machine Learning"]
+  }
+]

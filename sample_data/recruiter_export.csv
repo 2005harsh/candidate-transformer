@@ -1,0 +1,4 @@
+Name,Email,Phone,Current Company,Title,Location,LinkedIn,Skills
+Alex Johnson,alex.johnson@example.com,+1 555 123 4567,Acme Corp,Senior Software Engineer,"San Francisco, CA, USA",https://www.linkedin.com/in/alexjohnson,"Python; Machine Learning; Docker; Kubernetes"
+Maria Lopez,maria.lopez@example.com,+1 415 555 9876,Beta Systems,Data Engineer,"San Jose, CA, USA",https://www.linkedin.com/in/marialopez,"SQL; Python; ETL; Airflow"
+James Smith,james.smith@example.com,+44 20 7946 0958,Tech Solutions,Frontend Engineer,"London, UK",https://www.linkedin.com/in/jamessmith,"JavaScript; React; TypeScript; CSS"

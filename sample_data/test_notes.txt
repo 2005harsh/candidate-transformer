@@ -1,0 +1,4 @@
+﻿Candidate: John Doe
+Email: john.doe@email.com
+Phone: 555-123-4567
+Skills: Python, Java, SQL

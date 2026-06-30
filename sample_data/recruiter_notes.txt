@@ -1,0 +1,14 @@
+Name: Alex Johnson
+Email: alex.johnson@example.com
+Phone: +1 555 123 4567
+
+LinkedIn: https://www.linkedin.com/in/alexjohnson
+GitHub: https://github.com/alexjohnson
+
+Technical Skills:
+- Python, Machine Learning, Docker, Kubernetes, SQL
+
+Experience Summary:
+Senior Software Engineer at Acme Corp (2019-2024). Led backend platform initiatives, built data pipelines, and mentored engineers.
+
+Location: San Francisco, CA, United States

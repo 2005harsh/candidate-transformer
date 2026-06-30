@@ -1,0 +1,63 @@
+{
+  "candidate_name": "Sarah Johnson",
+  "primary_email": "sarah.johnson@email.com",
+  "phone_number": "+15551234567",
+  "skills": [
+    {
+      "name": "Python",
+      "confidence": 0.5,
+      "sources": [
+        "ats_json_sample_ats.json"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "confidence": 0.5,
+      "sources": [
+        "ats_json_sample_ats.json"
+      ]
+    },
+    {
+      "name": "React",
+      "confidence": 0.5,
+      "sources": [
+        "ats_json_sample_ats.json"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "confidence": 0.5,
+      "sources": [
+        "ats_json_sample_ats.json"
+      ]
+    },
+    {
+      "name": "AWS",
+      "confidence": 0.5,
+      "sources": [
+        "ats_json_sample_ats.json"
+      ]
+    },
+    {
+      "name": "Docker",
+      "confidence": 0.5,
+      "sources": [
+        "ats_json_sample_ats.json"
+      ]
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "TechCorp",
+      "title": "Senior Software Engineer",
+      "start": "2020-01",
+      "end": "2024-12",
+      "summary": "Led development of cloud-based applications.",
+      "sources": [
+        "ats_json_sample_ats.json"
+      ]
+    }
+  ],
+  "confidence_score": 0.5,
+  "_confidence": 0.5
+}

@@ -1,0 +1,15 @@
+{
+  "mapping": {
+    "candidate_name": "full_name",
+    "primary_email": "emails[0]",
+    "phone_number": { "from": "phones[0]", "normalize": "E164" },
+    "skills": { "from": "skills", "type": "array" },
+    "work_experience": "experience",
+    "confidence_score": "overall_confidence"
+  },
+  "options": {
+    "include_provenance": false,
+    "include_confidence": true,
+    "missing": "null"
+  }
+}
