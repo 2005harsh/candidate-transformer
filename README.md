@@ -224,13 +224,7 @@ pytest -q
 
 ---
 
-## Demo
 
-> *Replace this with a terminal GIF or asciinema recording of the CLI in action.*
-
-![Demo Placeholder](https://via.placeholder.com/800x400?text=Terminal+Demo+Coming+Soon)
-
----
 
 ## License
 
@@ -247,25 +241,11 @@ Make sure to add tests for your changes and run the test suite before submitting
 
 ## Contact
 
-- **Author** – Harsh ([GitHub](https://github.com/2005harsh))
+- **Author** – Harshwardhan Mali ([GitHub](https://github.com/2005harsh))
 - **Project Link** – [https://github.com/2005harsh/candidate-transformer](https://github.com/2005harsh/candidate-transformer)
-
+- **Email** - harshwardhanmali2005@gmail.com
 ---
 
-*Built with ❤️ for the recruitment tech community.*
-```
 
----
-
-### ✅ What's fixed:
-1. ✅ Removed the stray `text` word after the architecture diagram.
-2. ✅ Moved `### 2. Quick Start` outside the bash code block – it now renders as a proper heading.
-
----
-
-### 🎯 Next steps:
-- Copy the entire block above.
-- Go to your repo → `README.md` → click the pencil icon ✏️.
-- Paste, scroll down, and click **Commit changes**.
 
 Your README will now look just as polished and professional as `PulseAI`! If you want to replace the placeholder demo image with an actual GIF later, just let me know and I'll guide you on that too. 😊
