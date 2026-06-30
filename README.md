@@ -1,3 +1,4 @@
+
 # 🧬 Candidate Transformer
 
 **Unify candidate data from any source with a powerful, extensible pipeline.**
@@ -31,7 +32,7 @@
 
 **Candidate Transformer** is a modular pipeline that ingests candidate data from **multiple sources** (ATS exports, resumes in PDF/DOCX/TXT, recruiter CSVs, even GitHub profiles), **normalises** it, **merges** duplicate records intelligently, and **projects** the unified data into any custom output format you need.
 
-Built with **Python** and designed for **extensibility**, it’s perfect for HR tech integrations, recruitment analytics, or any system that needs a single source of truth for candidate information.
+Built with **Python** and designed for **extensibility**, it's perfect for HR tech integrations, recruitment analytics, or any system that needs a single source of truth for candidate information.
 
 ---
 
@@ -71,32 +72,33 @@ Built with **Python** and designed for **extensibility**, it’s perfect for HR 
 > A high‑level view of how data flows through the pipeline.
 
 ### Data Flow
-Input Sources (JSON/CSV/PDF/DOCX/TXT/GitHub URLs)
-│
-▼
-┌──────────────┐
-│ Parsers │ → each source is parsed into a raw dictionary
-└──────────────┘
-│
-▼
-┌──────────────┐
-│ Normalizer │ → standardises fields (emails, phones, dates, etc.)
-└──────────────┘
-│
-▼
-┌──────────────┐
-│ MergeEngine │ → deduplicates and merges records using trust weights
-└──────────────┘
-│
-▼
-┌──────────────┐
-│ProjectionEng.│ → maps canonical records to your custom output schema
-└──────────────┘
-│
-▼
-JSON Output
 
-text
+```
+Input Sources (JSON/CSV/PDF/DOCX/TXT/GitHub URLs)
+       │
+       ▼
+┌──────────────┐
+│   Parsers    │  → each source is parsed into a raw dictionary
+└──────────────┘
+       │
+       ▼
+┌──────────────┐
+│  Normalizer  │  → standardises fields (emails, phones, dates, etc.)
+└──────────────┘
+       │
+       ▼
+┌──────────────┐
+│  MergeEngine │  → deduplicates and merges records using trust weights
+└──────────────┘
+       │
+       ▼
+┌──────────────┐
+│ProjectionEng.│  → maps canonical records to your custom output schema
+└──────────────┘
+       │
+       ▼
+   JSON Output
+```
 
 ### Key Components
 
@@ -140,106 +142,130 @@ venv\Scripts\activate
 # On macOS / Linux:
 source venv/bin/activate
 pip install -r requirements.txt
-2. Quick Start (run the example + tests)
-bash
+```
+
+### 2. Quick Start (run the example + tests)
+
+```bash
 # macOS / Linux
 ./run.sh
 # Windows
 run.bat
+```
+
 This will:
+- Set up the virtual environment
+- Install dependencies
+- Run the pipeline twice (with default and custom configs)
+- Run the test suite
 
-Set up the virtual environment
+Pre‑generated outputs (`sample_data/output_default.json` and `sample_data/output_custom.json`) are already committed so you can see expected results without running anything.
 
-Install dependencies
+### 3. Basic Usage
 
-Run the pipeline twice (with default and custom configs)
-
-Run the test suite
-
-Pre‑generated outputs (sample_data/output_default.json and sample_data/output_custom.json) are already committed so you can see expected results without running anything.
-
-3. Basic Usage
 Parse one or more input files/URLs, merge them, and project to a JSON output:
 
-bash
+```bash
 python -m app.cli -i sample_data/sample_ats.json -i sample_data/recruiter_export.csv -o output.json
+```
+
 Use a custom projection config (JSON or YAML):
 
-bash
+```bash
 python -m app.cli -i sample_data/sample_ats.json -c sample_data/config_custom.json -o out.json
+```
+
 Enable debug logging:
 
-bash
+```bash
 python -m app.cli -i sample_data/sample_ats.json --debug
-Configuration Guide
-The projection config is a JSON/YAML file with a mapping object and optional options.
-
-mapping
-Maps output field name → canonical source path (dot notation, supports array indices like emails[0]).
-
-Example: {"candidate_name": "full_name"} → output field candidate_name gets value from full_name.
-
-For more control, use an object:
-
-json
-{
-  "candidate_name": {
-    "from": "full_name",
-    "type": "string",
-    "normalize": true,
-    "required": true
-  }
-}
-options
-include_provenance – true/false (adds source info to output)
-
-include_confidence – true/false (adds overall confidence score)
-
-missing – null, omit, or error (how to handle missing source values)
-
-See sample_data/config_custom.json for a complete example.
-
-Testing
-Run the test suite with pytest (from your virtual environment):
-
-bash
-pytest -q
-Unit tests – in tests/
-
-Integration tests – use sample_data/ to validate end‑to‑end behaviour
-
-Demo
-Replace this with a terminal GIF or asciinema recording of the CLI in action.
-
-https://via.placeholder.com/800x400?text=Terminal+Demo+Coming+Soon
-
-License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-Contributing
-Contributions are welcome! Please open an issue or pull request for any improvements, bug fixes, or new features.
-Make sure to add tests for your changes and run the test suite before submitting.
-
-Contact
-Author – Harsh (GitHub)
-
-Project Link – https://github.com/2005harsh/candidate-transformer
-
-Built with ❤️ for the recruitment tech community.
-
-text
+```
 
 ---
 
-### ✅ What changed
+## Configuration Guide
 
-- Added **badges** (you can replace the URLs with your own from shields.io).
-- Restructured with a **Table of Contents** for easy navigation.
-- Introduced an **Overview** and **System Architecture** section with data flow diagram.
-- Grouped **Features** into clear categories with icons.
-- Added a **Design Decisions** paragraph explaining key choices.
-- Reorganised **Getting Started** with sub‑headings and clearer instructions.
-- Added placeholders for **Demo** (you can embed a GIF or asciinema recording).
-- Added **License**, **Contributing**, and **Contact** sections to complete the professional look.
+The projection config is a JSON/YAML file with a `mapping` object and optional `options`.
 
-Simply copy this entire block into your `README.md` file, adjust the badge links and demo media, and you're good to go!
+### `mapping`
+- Maps **output field name** → **canonical source path** (dot notation, supports array indices like `emails[0]`).
+- Example: `{"candidate_name": "full_name"}` → output field `candidate_name` gets value from `full_name`.
+- For more control, use an object:
+  ```json
+  {
+    "candidate_name": {
+      "from": "full_name",
+      "type": "string",
+      "normalize": true,
+      "required": true
+    }
+  }
+  ```
+
+### `options`
+- `include_provenance` – `true`/`false` (adds source info to output)
+- `include_confidence` – `true`/`false` (adds overall confidence score)
+- `missing` – `null`, `omit`, or `error` (how to handle missing source values)
+
+See `sample_data/config_custom.json` for a complete example.
+
+---
+
+## Testing
+
+Run the test suite with `pytest` (from your virtual environment):
+
+```bash
+pytest -q
+```
+
+- **Unit tests** – in `tests/`
+- **Integration tests** – use `sample_data/` to validate end‑to‑end behaviour
+
+---
+
+## Demo
+
+> *Replace this with a terminal GIF or asciinema recording of the CLI in action.*
+
+![Demo Placeholder](https://via.placeholder.com/800x400?text=Terminal+Demo+Coming+Soon)
+
+---
+
+## License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open an issue or pull request for any improvements, bug fixes, or new features.  
+Make sure to add tests for your changes and run the test suite before submitting.
+
+---
+
+## Contact
+
+- **Author** – Harsh ([GitHub](https://github.com/2005harsh))
+- **Project Link** – [https://github.com/2005harsh/candidate-transformer](https://github.com/2005harsh/candidate-transformer)
+
+---
+
+*Built with ❤️ for the recruitment tech community.*
+```
+
+---
+
+### ✅ What's fixed:
+1. ✅ Removed the stray `text` word after the architecture diagram.
+2. ✅ Moved `### 2. Quick Start` outside the bash code block – it now renders as a proper heading.
+
+---
+
+### 🎯 Next steps:
+- Copy the entire block above.
+- Go to your repo → `README.md` → click the pencil icon ✏️.
+- Paste, scroll down, and click **Commit changes**.
+
+Your README will now look just as polished and professional as `PulseAI`! If you want to replace the placeholder demo image with an actual GIF later, just let me know and I'll guide you on that too. 😊
